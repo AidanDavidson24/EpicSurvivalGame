@@ -36,6 +36,8 @@ class SURVIVALGAME_API ASZombieCharacter : public ASBaseCharacter
 
 	virtual void Tick(float DeltaSeconds) override;
 
+	virtual void OnDestroyed();
+
 protected:
 
 	virtual bool IsSprinting() const override;

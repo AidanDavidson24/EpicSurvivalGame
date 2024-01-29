@@ -105,6 +105,10 @@ void ASZombieCharacter::Tick(float DeltaSeconds)
 	}
 }
 
+void ASZombieCharacter::OnDestroyed()
+{
+}
+
 
 void ASZombieCharacter::OnSeePlayer(APawn* Pawn)
 {
